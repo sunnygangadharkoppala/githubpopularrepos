@@ -1,0 +1,42 @@
+/* Write your CSS here */
+.appContainer {
+  width: 100vw;
+  min-height: 150vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.filterButtonsContainer {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  list-style-type: none;
+}
+.mainHeading {
+  font-family: 'Lobster';
+}
+.repositoryContainer {
+  width: 72%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.loaderContainer {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 567px) {
+  .repositoryContainer {
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+  }
+  .filterButtonsContainer {
+    width: 96%;
+  }
+}

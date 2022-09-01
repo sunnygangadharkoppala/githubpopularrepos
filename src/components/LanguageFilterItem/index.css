@@ -1,0 +1,17 @@
+.activateButton {
+  background-color: #fff;
+  color: #0284c7;
+  border-color: #0284c7;
+  border-radius: 15px;
+  font-size: 16px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.normalButton {
+  background-color: #fff;
+  color: #000;
+  border: 0px;
+  font-size: 17px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
